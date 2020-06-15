@@ -1,0 +1,17 @@
+I have used 2 layer LSTM network
+
+Network Architecture: Keras Framework used
+
+1.Embedding layer
+2.Conv1D
+3.MaxPooling1D
+4.LSTM_1
+5.LSTM_2 with Dropout
+6.Dense
+
+Note:
+	1. I have restricted my vocabulary to 15441 words , with stopwords and non-alpha characters
+removed.
+	2. I have used Stochastic Weight Averaging to ensure more test accuracy.
+	3. I have cosine annealing learning rate to help with the weights training.
+
